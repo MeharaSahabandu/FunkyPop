@@ -1,0 +1,58 @@
+body{
+    background-color: #000000;
+}
+
+
+.container .navtitle{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0.5em;
+}
+
+.icon_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    margin-top: 150px;
+    margin-bottom: 1em;
+    column-gap: 150px;
+}
+.icon_row .expense{
+   
+    width: 150px;
+    height: 150px;
+    transition: transform .5s; 
+   
+}
+
+.icon_row .report{
+
+    width: 150px;
+    height: 150px;
+    transition: transform .5s; 
+}
+
+.icon_row .stock{
+   
+    width: 150px;
+    height: 150px;
+    transition: transform .5s; 
+}
+
+
+.icon_row .report:hover {
+    transform: scale(1.5); 
+  }
+
+.icon_row .expense:hover {
+    transform: scale(1.5); 
+  }
+
+.icon_row .stock:hover {
+    transform: scale(1.5); 
+  }
