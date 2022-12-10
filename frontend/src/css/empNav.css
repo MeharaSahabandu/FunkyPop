@@ -1,0 +1,64 @@
+.empNav{
+
+    background-color: black;
+}
+
+.icon_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    margin-top: 150px;
+    margin-bottom: 1em;
+    column-gap: 150px;
+}
+/*
+.proIcon{
+    width: 100px;
+    height: 100px;
+    transition: transform .5s;
+    background-color: black;
+    margin-top: 160px;
+    margin-right: 720px;
+}
+.proIcon1{
+    width: 100px;
+    height: 100px;
+    transition: transform .5s;
+    background-color: black;
+    margin-top: -130px;
+    margin-right: 220px;
+}
+.proIcon2{
+    width: 100px;
+    height: 100px;
+    transition: transform .5s;
+    background-color: black;
+    margin-top: -180px;
+    margin-right: -290px;
+}
+.proIcon3{
+    width: 100px;
+    height: 100px;
+    transition: transform .5s;
+    background-color: black;
+    margin-top: -231px;
+    margin-right: -790px;
+}
+.proIcon4{
+    width: 100px;
+    height: 100px;
+    transition: transform .5s;
+    background-color: black;
+    margin-top: -200px;
+    margin-right: -590px;
+}
+*/
+
+.icon_row .proIcon{
+    width: 150px;
+    height: 150px;
+    transition: transform .5s; 
+    background-color: black;
+}
