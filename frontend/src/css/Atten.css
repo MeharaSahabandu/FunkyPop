@@ -1,0 +1,38 @@
+.tbl{
+    font-size: 48 px;
+    color: aliceblue;
+}
+
+.btn3{
+    color: #101113;
+	background-color: #ffff;
+	font-weight: 700;
+	height: 50px;
+	border: none;
+	width: 40%;
+	border-radius: 3px;
+	text-transform: uppercase;
+	text-decoration: none; 
+}
+
+
+.btn4{
+    color: #ffffff;
+	background-color: rgb(0, 0, 0);
+	font-weight: 700;
+	height: 50px;
+	border: none;
+	width: 25%;
+	border-radius: 3px;
+	text-transform: uppercase;
+	text-decoration: none; 
+}
+
+.btn3:hover{
+    background-color: aliceblue;
+}
+
+.btn4:hover{
+	background-color: antiquewhite;
+	color: #101113;
+}
